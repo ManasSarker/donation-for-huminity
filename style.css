@@ -14,6 +14,7 @@ a:hover {
   margin-right: 10px;
 }
 .donate-btn {
+  margin-top: 5%;
   color: white;
   background: red;
   text-decoration: none;
@@ -23,17 +24,51 @@ a:hover {
 
 .donation {
   text-align: center;
+  margin-bottom: 200px;
 }
 
 .donation p {
+  //margin-bottom: 10px;
   color: grey;
 }
 
+.donate-plan {
+  margin-top: 100px;
+  text-align: center;
+}
+
+#individula-amount {
+  padding: 30px;
+  border-bottom-style: outset;
+}
+.money {
+  margin: 10px;
+  background: #ede6db;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  color: #1a3c40;
+  border: 2px solid white;
+  height: 100px;
+  width: 200px;
+}
+#money-color {
+  margin: 10px;
+  background: #ffe6e6;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  color: red;
+
+  height: 100px;
+  width: 200px;
+}
 .hader {
   background-image: url("images/donation13.jpg");
 
   color: white;
-
+  margin-bottom: 100px;
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -53,5 +88,81 @@ a:hover {
 
 .half-width h1 {
   font-weight: bold;
+  font-size: 50px;
+}
+
+.planning-cart {
+  display: flex;
+}
+
+.planning {
+  width: 33%;
+  height: 300px;
+  padding: 10px;
+  box-shadow: 5px 10px 10px #888888;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.planning p {
+  text-align: justify;
+}
+
+#shelterIcons {
+  height: 100px;
+  margin-left: -150px;
+  margin-top: 40px;
+}
+
+#foodIcons {
+  height: 80px;
+  margin-left: -150px;
+  margin-top: 40px;
+}
+#familyIcons {
+  height: 80px;
+  margin-left: -150px;
+  margin-top: 40px;
+}
+.updates {
+  margin-top: 100px;
+  text-align: center;
+}
+.email-us {
+  height: 250px;
+  width: 100%;
+  background: #ffe7bf;
+  margin-bottom: 200px;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+#email {
+  margin-top: 100px;
+  height: 35px;
+  width: 30%;
+  background: #e0deca;
+  border-radius: 5px 0px 0px 5px;
+  border-style: none;
+  color: red;
+  padding-left: 10px;
+}
+#Subcribe {
+  height: 37px;
+  width: 100px;
+  margin-left: -5px;
+  border-style: none;
+  background: red;
+  color: white;
+  font-size: 18px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+footer {
+  color: #f15412;
+  font-family: "The Nautigal", cursive;
+  height: 250px;
+  width: 100%;
+  background: black;
+  text-align: center;
   font-size: 50px;
 }

@@ -5,11 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Donate</title>
-
+    <!-- Poppins - Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- THE NAUTIGAL FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap"
       rel="stylesheet"
     />
 
@@ -26,10 +33,15 @@
           is the responsibility to us that when someone face any problem we
           should give our hand to each other
         </p>
+        <br />
+        <br />
 
-        <a class="donate-btn" href="">Donate Now</a>
+        <a class="donate-btn" href="">Donate Now</a
+        ><!-- use this class for several place  -->
       </div>
     </section>
+
+    <!-- This is donation section . here I use half-width class again , which took 50% of width   -->
     <section class="donation half-width">
       <h1>Donate Today</h1>
       <p>
@@ -38,13 +50,81 @@
         please donate today
       </p>
 
+      <!-- This box model class have five part  -->
       <div class="box-model">
-        <h4>100Tk</h4>
-        <h4>100Tk</h4>
-        <h4>100Tk</h4>
-        <h4>100Tk</h4>
-        <h4>100Tk</h4>
+        <h2 class="money">100Tk</h2>
+        <h2 id="money-color">200Tk</h2>
+        <!-- Used id because this tag is in individual color -->
+        <h2 class="money">500Tk</h2>
+        <h2 class="money">1000Tk</h2>
+        <h2 class="money">5000Tk</h2>
+      </div>
+      <p id="individula-amount">Other Amount (Taka)</p>
+      <!-- Used two <br/> . for making some gap . But This not a proper away   -->
+      <br />
+      <br />
+
+      <a class="donate-btn" href="">Donate Now</a>
+    </section>
+
+    <!--This section have Three div class which is almost similar ,except the content in it   -->
+
+    <section class="donate-plan half-width">
+      <div>
+        <h1>Our Donate Plan</h1>
+        <p>
+          We work as a team. So a team we decided that we will help some people
+          who are really need money in this circumtences
+        </p>
+      </div>
+      <div class="planning-cart">
+        <div class="planning">
+          <img id="foodIcons" src="images/icons/food.png" alt="" />
+          <!-- Used some id , because the size of the icons were not same -->
+          <h3>Food for a family</h3>
+          <p>
+            For any living beings food is very important fot existence. So our
+            main goal to ensure that every people will get food . No matter how
+            many they are.
+          </p>
+        </div>
+        <div class="planning">
+          <img id="shelterIcons" src="images/icons/clothes.svg" alt="" />
+          <h3>Cloths for a family</h3>
+          <p>
+            For the flood most of them take shelter .But they don't have enough
+            cloths with them . So our second goal is to ensure that they will
+            have cloths
+          </p>
+        </div>
+        <div class="planning">
+          <img id="familyIcons" src="images/icons/shelter.png" alt="" />
+          <h3>Education for family</h3>
+          <p>
+            Everybody know that education is the key of success for anybody . So
+            our team decided that we will make team who will ensure that every
+            children will go school after this disaster
+          </p>
+        </div>
       </div>
     </section>
+
+    <section class="updates half-width">
+      <h1>Get Our Updates</h1>
+      <p>
+        If you want to get updates , you are always welcome to our website. For
+        any feedback or suggestion please email us in:
+      </p>
+      <div class="email-us half-width">
+        <form action="/action_page.php">
+          <input type="email" id="email" placeholder="Email :" name="email" />
+          <input type="submit" value="Subscribe" id="Subcribe" />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <h2>Be Humble</h2>
+    </footer>
   </body>
 </html>
