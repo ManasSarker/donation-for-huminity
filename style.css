@@ -1,0 +1,57 @@
+body {
+  margin: 0px;
+  margin-top: -20px;
+  font-family: "Roboto", sans-serif;
+}
+a:hover {
+  color: hotpink;
+}
+
+.box-model {
+  display: flex;
+}
+.box-model h1 {
+  margin-right: 10px;
+}
+.donate-btn {
+  color: white;
+  background: red;
+  text-decoration: none;
+  padding: 14px 25px;
+  border-radius: 10px 5px;
+}
+
+.donation {
+  text-align: center;
+}
+
+.donation p {
+  color: grey;
+}
+
+.hader {
+  background-image: url("images/donation13.jpg");
+
+  color: white;
+
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  text-align: center;
+  padding-top: 150px;
+}
+.hader image {
+  width: 100%;
+}
+
+.half-width {
+  margin: auto;
+  width: 50%;
+}
+
+.half-width h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
