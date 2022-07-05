@@ -14,7 +14,6 @@ a:hover {
   margin-right: 10px;
 }
 .donate-btn {
-  margin-top: 5%;
   color: white;
   background: red;
   text-decoration: none;
@@ -40,6 +39,7 @@ a:hover {
 #individula-amount {
   padding: 30px;
   border-bottom-style: outset;
+  margin-bottom: 80px;
 }
 .money {
   margin: 10px;
@@ -64,7 +64,7 @@ a:hover {
   height: 100px;
   width: 200px;
 }
-.hader {
+.header {
   background-image: url("images/donation13.jpg");
 
   color: white;
@@ -89,6 +89,10 @@ a:hover {
 .half-width h1 {
   font-weight: bold;
   font-size: 50px;
+}
+
+#intro-description {
+  margin-top: 20px;
 }
 
 .planning-cart {
@@ -124,6 +128,24 @@ a:hover {
   margin-left: -150px;
   margin-top: 40px;
 }
+
+.news img {
+  width: 100%;
+}
+.news {
+  margin-top: 100px;
+  text-align: center;
+}
+.news-cart {
+  display: flex;
+}
+
+.news-container {
+  box-shadow: 5px 5px 10px #ffa500;
+  margin-left: 15px;
+  width: 33%;
+  height: 400px;
+}
 .updates {
   margin-top: 100px;
   text-align: center;
@@ -146,6 +168,22 @@ a:hover {
   color: red;
   padding-left: 10px;
 }
+#planning-color-first {
+  background: #c2ded1;
+}
+
+#planning-color-second {
+  background: #e9d5ca;
+}
+
+#planning-color-third {
+  background: #f7ccac;
+}
+.orange-color {
+  text-decoration: none;
+  color: orange;
+  cursor: pointer;
+}
 #Subcribe {
   height: 37px;
   width: 100px;
@@ -158,11 +196,19 @@ a:hover {
 }
 
 footer {
-  color: #f15412;
-  font-family: "The Nautigal", cursive;
+  color: white;
   height: 250px;
   width: 100%;
   background: black;
   text-align: center;
   font-size: 50px;
+}
+
+footer h2 {
+  color: #f15412;
+  font-family: "The Nautigal", cursive;
+}
+
+footer p {
+  font-size: 14px;
 }
